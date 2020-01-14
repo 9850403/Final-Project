@@ -6,7 +6,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .container
 {
@@ -20,7 +19,7 @@ body{
     position: relative;
 }
 .container .card .font-face {
-{
+
   width: 300px;
   height: 200px;
   transition: 0.5s;
@@ -74,5 +73,5 @@ border: 1px solid #333
 .container .card .face.face2 .content a:hover
 {
   background: #333;
-  color: #fff;s
+  color: #fff;
 }
