@@ -2,15 +2,32 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #333;
+    animation: 10000ms ease-in-out infinite color-change; ;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.h1
-{
-  text-align: center;
+@keyframes color-change {
+  0% {
+    background-color: teal;
+  }
+  20% {
+    background-color: gold;
+  }
+  40% {
+    background-color: indianred;
+  }
+  60% {
+    background-color: violet;
+  }
+  80% {
+    background-color: green;
+  }
+  100% {
+    background-color: teal;
+  }
 }
+
 .container
 {
     width: 1000px;
