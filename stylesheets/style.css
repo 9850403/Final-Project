@@ -27,7 +27,10 @@ body{
     background-color: teal;
   }
 }
-
+.h3
+{
+  background: transparent;
+}
 .container
 {
     width: 1000px;
