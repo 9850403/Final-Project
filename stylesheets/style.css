@@ -88,7 +88,7 @@ body{
 .container .card .face.face2
 {
   position: relative;
-  background: #fff;
+  background: #transparent;
   display: flex;
   justify-content: center;
   align-items: center;
