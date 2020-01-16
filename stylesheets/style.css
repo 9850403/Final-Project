@@ -6,8 +6,34 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
+@keyframes color-change {
+  0% {
+    background-color: teal;
+  }
+  20% {
+    background-color: gold;
+  }
+  40% {
+    background-color: indianred;
+  }
+  60% {
+    background-color: violet;
+  }
+  80% {
+    background-color: green;
+  }
+  100% {
+    background-color: teal;
+  }
+}
+.h3
+{
+  background: transparent;
+}
+
+
 .container
 {
     width: 1000px;
@@ -33,6 +59,12 @@ body{
   justify-content: center;
   align-items: center;
   z-index: 1;
+  transform: translateY(100px);
+}
+.container .card:hover .face.face1
+{
+  background: #ff0057;
+  transform: translateY(0);
 }
 .container .card .face.face1 .content
 {
@@ -47,7 +79,7 @@ body{
 .container .card .face.face2
 {
   position: relative;
-  background: #fff;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
