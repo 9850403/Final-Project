@@ -7,9 +7,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-<<<<<<< HEAD
 
-=======
 @keyframes color-change {
   0% {
     background-color: teal;
@@ -34,7 +32,7 @@ body{
 {
   background: transparent;
 }
->>>>>>> f2b1d36eeea9a3f8fd097f563cd294d401c5b48c
+
 .container
 {
     width: 1000px;
